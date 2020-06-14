@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title> 小통하는 공간, SNS! </title>
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/default.css" />
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/ui.js"></script>
+	<style>
+     #footer_container{
+           background: white;
+            padding: 3%;
+        }
+        #body_container {min-height:100%; padding:85px 0 210px; box-sizing:border-box; background: white; background-size:100% 1190px;}
+    </style>
+</head>
+<body>
+
+	<!-- s: header -->
+	<header id="header_container">
+		<h1 class="logo"><a href="index.html"><img src="images/img_logo01.png" width="216" height="28" alt="小통하는공간, SNS" /></a></h1>
+		<nav class="gnb_wrap">
+			<ul>
+				<li class="m"><a href="main.html"><img src="images/img_gnb01.png" width="46" height="28" alt="SNS" /></a></li>
+				<li class="m">
+					<a href="sas_01.html"><img src="images/img_gnb02.png" width="46" height="28" alt="S&amp;S" /></a>
+					<div class="sub">
+						<ul>
+							<li><a href="sas_01.html">나는 어떤 사람 ?</a></li>
+							<li><a href="sas_02.html">SNS속 숨은 진상들</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="m">
+					<a href="sos.html"><img src="images/img_gnb03.png" width="46" height="28" alt="SOS" />
+					<div class="sub">
+						<ul>
+							<li><a href="syn.html">SNS 증후군</a></li>
+							<li><a href="sos.html">SNS 중독 테스트</a></li>
+						</ul>
+					</div>
+				</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- e: header -->
+
+	<!-- s: sas -->
+	<section id="body_container">
+
+		<!-- s: header -->
+		<div class="header_wrap">
+			<h2 class="title"><span>S&amp;S</span> (Scene &amp; Stealer)</h2>
+			<h3 class="subTitle">SNS 속 숨은 진상들</h3>
+			<p class="desc">
+				사람들은 SNS를 이용하면서 자신의 일상을 공유하는것에 재미를 들렸고, 이로 인해 SNS에 반복적으로 글을 올린다. 하지만 SNS를 이용하면서 사용자들은<br />
+				항상 좋은 글만 올리는 것은 아니다. 자신은 그런 의도로 올리지 않았더라도 보는 사람으로 하여금 피해를 줄 수 있다. 여기서는 SNS를 이용하면서 눈살을<br />
+				찌푸리게 하는   소위 말하는 SNS 진상을 볼 수 있다. 
+			</p>
+		</div>
+		<!-- e: header -->
+
+		<!-- s: content -->
+		<div class="content_type02">
+			<!-- s: slider -->
+			<div class="slide_wrap">
+				<div class="slide item01">
+					<img src="images/sas/img_content02_01.png" alt="닭살커플" />
+					
+				</div>
+				<div class="slide item02"><img src="images/sas/img_content02_02.png" alt="반려동물애호가" />
+					
+				</div>
+				<div class="slide item03">
+					<img src="images/sas/img_content02_03.png" alt="베이그부커" />
+
+				</div>
+				<div class="slide item04">
+					<img src="images/sas/img_content02_04_1.png" alt="데비다우너" />
+					
+				</div>
+				<div class="slide item05">
+					<img src="images/sas/img_content02_05.png" alt="게임중독자" />
+					
+				</div>
+				<div class="slide item06">
+					<img src="images/sas/img_content02_06.png" alt="우버태거" />
+
+				</div>
+			</div>
+			<!-- e: slider -->
+			<script src="js/jquery.bxslider.min.js"></script>
+			<script type="text/javascript">
+				$(function(){
+					$(".content_type02 .slide_wrap").bxSlider({speed:800});
+				})
+			</script>
+		</div>
+		<!-- e: content -->
+
+	</section>
+	<!-- e: sas -->
+
+
+	<!-- s: footer -->
+	<footer id="footer_container">
+		<div class="footer_inner">
+<!-- 			<ul class="sns_wrap">
+				<li><a href="errorPage.html"><img src="images/btn_sns01.png" width="54" height="54" alt="twitter" /></a></li>
+				<li><a href="errorPage.html"><img src="images/btn_sns02.png" width="54" height="54" alt="instagram" /></a></li>
+				<li><a href="errorPage.html"><img src="images/btn_sns03.png" width="54" height="54" alt="facebook" /></a></li>
+			</ul> -->
+			<p class="txt">THE SMALL AREA COMMUNICATING, SNS</p>
+		</div>
+	</footer>
+	<!-- e: footer -->
+
+</body>
+</html>
